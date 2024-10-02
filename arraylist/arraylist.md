@@ -12,7 +12,7 @@ arraylist/test_arraylist.c \
 -o build/arraylist
 ```
 
-oversigt:
+## oversigt:
 
 ```c
 ArrayList* alst_create();                   
@@ -26,5 +26,10 @@ void alst_set(ArrayList* list, int index, int value);
 void alst_clear(ArrayList* list);           
 void alst_free(ArrayList* list);       
 ```
-brug: 
+## brug: 
 
+Se filen test_arraylist.c for at få en idé om funktionaliteten i programmet.
+
+## ekstra:
+
+Der er tilføjet kommentarer til de elementer, som ligger uden for det nuværende pensum, for eksempel 'define macro', 'static' og 'inline'.

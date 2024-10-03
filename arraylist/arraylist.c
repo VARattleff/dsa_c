@@ -3,8 +3,6 @@
 #include <string.h>
 #include "arraylist.h"
 
-#pragma region defines
-
 #define GROWTH_FACTOR 1.5      
 #define MIN_CAPACITY 10        
 
@@ -26,8 +24,6 @@
             alst_resize(list, list->capacity / 2); \
         } \
     } while(0)
-
-#pragma endregion
 
 // "static" intern funktion til filen til at ændre størrelsen på arraylisten 
 static void alst_resize(ArrayList* list, int new_capacity) 

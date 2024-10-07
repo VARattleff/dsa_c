@@ -7,7 +7,8 @@ void printInt(void* data)
     printf("%d ", *(int*)data);
 }
 
-int main() {
+int main() 
+{
     LinkList* list = createList();
 
     int data1 = 10, data2 = 20, data3 = 30, data4 = 40;
